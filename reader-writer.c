@@ -12,13 +12,11 @@ omp_init_lock(&writelock);
 
 int readCount=0;
 
- printf("\nEnter number of Readers thread(MAX 10):");
- scanf("%d",&NumberofReaderThread);
- printf("\nEnter number of Writers thread(MAX 10):");
- scanf("%d",&NumberofWriterThread);
+printf("\nEnter number of Readers thread(MAX 10):");
+scanf("%d",&NumberofReaderThread);
+printf("\nEnter number of Writers thread(MAX 10):");
+scanf("%d",&NumberofWriterThread);
 
-
-int tid=0;
 
 #pragma omp parallel
 #pragma omp for
@@ -29,7 +27,7 @@ int tid=0;
 
   time ( &rawtime );
   timeinfo = localtime ( &rawtime );
-  ////printf ( "Current local time and date: %s", asctime (timeinfo) );
+  //printf ( "Current local time and date: %s", asctime (timeinfo) );
   //  sleep(2);
 
   printf("\nReader %d is trying to enter into the Database for reading the data",i);
@@ -50,7 +48,7 @@ int tid=0;
  }
 
 
-#pragma omp parallel shared(tid)
+#pragma omp parallel
 #pragma omp for nowait
  for(i=0;i<NumberofWriterThread;i++)
  {
