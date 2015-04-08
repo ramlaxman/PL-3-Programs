@@ -1,0 +1,53 @@
+/* COMPILATION AND EXECUTION */
+[root@localhost ubuntu]# flex --header-file=lexer.h lex1.l
+[root@localhost ubuntu]# bison --defines=parser.h pars.y
+[root@localhost ubuntu]# gcc -fopenmp main.c lex.yy.c pars.tab.c
+[root@localhost ubuntu]# ./a.out
+
+ enter no. of files:2
+
+ enter file names:ip
+ip1
+fname=ip fname=ip1 
+ in parallel=0
+
+ in parallel=1
+
+ successful parsing by thread ID=1
+
+ successful parsing by thread ID=1
+
+parse error: thread ID=1
+
+ successful parsing by thread ID=0
+
+parse error: thread ID=0
+[root@localhost ubuntu]# 
+
+/* Execution with 3 input files */
+
+[root@localhost ubuntu]# ./a.out
+
+ enter no. of files:3
+
+ enter file names:ip1
+ip2
+ip
+fname=ip1 fname=ip2 fname=ip 
+ in parallel=0
+
+ successful parsing by thread ID=0
+
+ successful parsing by thread ID=0
+
+parse error: thread ID=0
+
+ in parallel=2
+
+ successful parsing by thread ID=2
+
+parse error: thread ID=2
+
+ in parallel=1
+
+ successful parsing by thread ID=1
