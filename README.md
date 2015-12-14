@@ -32,6 +32,7 @@
         OS Supported including Embedded OS
 
     **Tools required/useful to get started for this**:
+    
         IDE, Editors, Compilers
 
     **Architecture Diagram**:
@@ -40,7 +41,7 @@
 
     **Movies/Shows/Serials/Events you have heard about the technology**:
 
-      If yes, please state the scenario and application *there*:
+        If yes, please state the scenario and application *there*:
 
     **Implementation in real world:**
 
@@ -50,7 +51,6 @@
         b. IT Sector
         c. Research and Development
         d. Academic Field
-
         Which type of problems it solves or new opportunity with this?
 
     **Conclusion:**
