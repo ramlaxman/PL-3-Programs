@@ -38,6 +38,7 @@
     **Implementation in real world:**
 
     **A/c to you, where it should be applicable?**
+    
         a. Govt Sector
         b. IT Sector
         c. Research and Development
@@ -45,4 +46,4 @@
 
     **Which type of problems it solves or new opportunity with this?**
 
-    **Conclusion**
+    **Conclusion:**
