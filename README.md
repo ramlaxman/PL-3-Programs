@@ -12,9 +12,9 @@
 
 4.  After completion send it to mspatil@comp.mitaoe.ac.in
 
-     **__Structure of Document__**:
+     **_Structure of Document_**:
 
-     Students Name with Roll No:
+     **Students Name with Roll No**:
 
 
     **Name of Technology**:
