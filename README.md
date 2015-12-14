@@ -4,13 +4,20 @@
     
 1.  Divide yourself according to roll numbers in group of 3 students.
 
-2.  Get Names of Parallel Programming Platforms available till Date
+2.  Get Names of Parallel Programming Platforms available till Date.
 
-3. Inform the Teacher about the names you have gotten so he will allocate among the groups.
+3.  Inform the Teacher about the names you have gotten so he will allocate among the groups.
 
-3.  Prepare a document each by group consisting following information: 
+3.  Prepare a document each by group consisting following information.
 
-    **Name**:
+4.  After completion send it to mspatil@comp.mitaoe.ac.in
+
+Structure of Document:
+
+Students Name with Roll No:
+
+
+    **Name of Technology**:
 
     **Purpose**:
 
@@ -23,10 +30,10 @@
     **Platforms Supported**:
 
         OS Supported including Embedded OS
-  
+
     **Tools required/useful to get started for this**:
         IDE, Editors, Compilers
-  
+
     **Architecture Diagram**:
   
     **Hello World Program & commands to run**:
