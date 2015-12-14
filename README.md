@@ -38,10 +38,10 @@
     **Implementation in real world:**
 
     **A/c to you, where it should be applicable?**
-          a. Govt Sector
-          b. IT Sector
-          c. Research and Development
-          d. Academic Field
+        a. Govt Sector
+        b. IT Sector
+        c. Research and Development
+        d. Academic Field
 
     **Which type of problems it solves or new opportunity with this?**
 
