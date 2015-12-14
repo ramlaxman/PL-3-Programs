@@ -51,6 +51,6 @@
         b. IT Sector
         c. Research and Development
         d. Academic Field
-        Which type of problems it solves or new opportunity with this?
+        Which type of problems it solves or new opportunity will be available with this?
 
     **Conclusion:**
