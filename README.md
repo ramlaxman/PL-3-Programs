@@ -41,7 +41,7 @@
 
     **Movies/Shows/Serials/Events you have heard about the technology**:
 
-        If yes, please state the scenario and application *there*:
+        If yes, please state the scenario and application:
 
     **Implementation in real world:**
 
