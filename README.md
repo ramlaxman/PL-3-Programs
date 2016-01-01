@@ -2,7 +2,7 @@
 
 ##Group Activity 1:
     
-1.  Form thr group of 3 studentsaccording to roll numbers.
+1.  Form the group of 3 studentsaccording to roll numbers.
 
 2.  Get Names of Embedded Systems Tools and Boards available till Date.
 
