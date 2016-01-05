@@ -1,3 +1,4 @@
+;http://www.jonathanfischer.net/modern-common-lisp-on-linux/
 (defvar a)
 (defvar b)
 (defvar c)
