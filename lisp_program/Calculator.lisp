@@ -61,3 +61,21 @@
 				(print c))))
   
 (exit)
+
+
+-----------------------------------------------------------------------
+
+Steps to run Lisp program
+[abc@localhost ~]$ sbcl
+
+This is SBCL 1.1.12-1.fc20, an implementation of ANSI Common Lisp. 
+More information about SBCL is available at <http://www.sbcl.org/>.
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+
+* (load "demo.lisp")
+Enter two numbers: 
+01110110
+11001010
