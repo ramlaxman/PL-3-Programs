@@ -1,0 +1,20 @@
+In this case, BBB will be our client and Host machine will be our server.
+
+1. Establish SSH connection
+
+2. Check IP of machine next to you. After checking, remove the cable.
+
+3. In BBB, issue following commands:
+   # ifconfig eth0 "Client_IP"
+4. Set path for JDK 
+   # export PATH=$PATH:/home/jdk1.7.0_60/bin
+   # export JAVA_HOME=/home/jdk1.7.0_60
+5. Give following commands,
+
+   On Server machine,
+   $ javac echoserver.java
+   $ java echoserver
+   
+   On client 
+   # javac echoclient.java
+   # java echoclient "Server_IP"
