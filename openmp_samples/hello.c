@@ -2,6 +2,8 @@
 	Hello World program
 	To compile:-
 		gcc -fopenmp hello.c
+	To run:-
+		./a.out
 */
 
 #include <omp.h>
